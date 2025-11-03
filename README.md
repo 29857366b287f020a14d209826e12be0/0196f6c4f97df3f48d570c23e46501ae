@@ -20,7 +20,7 @@
 
 ## Automatic Deployment
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://www.heroku.com/deploy?template=https://github.com/29857366b287f020a14d209826e12be0/0196f6c4f97df3f48d570c23e46501ae/tree/evil)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://www.heroku.com/deploy?template=https://github.com/29857366b287f020a14d209826e12be0/0196f6c4f97df3f48d570c23e46501ae/tree/namespaceevil)
 
 ## Manual Deployment
 ### **Set Required Environment Variables from Heroku CLI**
