@@ -1,1 +1,1 @@
-mcp-python-evil2: python -m src.stdio_server
+mcp-python-evil3: python -m src.stdio_server
