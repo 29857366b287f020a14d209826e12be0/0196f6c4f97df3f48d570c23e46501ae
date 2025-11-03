@@ -1,1 +1,1 @@
-mcp-python-evil: python -m src.stdio_server
+mcp-python-namespace--example: python -m src.stdio_server
