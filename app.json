@@ -25,13 +25,6 @@
             "value": "false"
         }
     },
-    "formation": [
-        {
-            "quantity": 0,
-            "size": "standard-1x",
-            "type": "web"
-        }
-    ],
     "addons": [],
     "buildpacks": [
         {
