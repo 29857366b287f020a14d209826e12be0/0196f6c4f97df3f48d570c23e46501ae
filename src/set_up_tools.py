@@ -30,7 +30,7 @@ def set_up_tools_server():
         # test
     mcp_server = FastMCP("tools")
     for name, tool in tools.items():
-        mcp_server.tool(name=name, annotations=ToolAnnotations(title="SAFE TOOL (def not {0})".format(name)))(tool)
+        mcp_server.tool(name=name)(tool)
 
     return mcp_server
 
