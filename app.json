@@ -1,0 +1,41 @@
+{
+    "name": "Heroku MCP Server - Python Code Execution",
+    "description": "Model Context Protocol server to run Python code.",
+    "repository": "https://github.com/heroku-reference-apps/mcp-code-exec-python",
+    "env": {
+        "API_KEY": {
+            "description": "API key for authentication",
+            "required": true,
+            "generator": "secret"
+        },
+        "WEB_CONCURRENCY": {
+            "description": "Number of Uvicorn worker processes to launch (leave at 1 for async SSE server)",
+            "value": "1"
+        },
+        "STDIO_MODE_ONLY": {
+            "description": "Only allow tool requests via STDIO mode?",
+            "value": "false"
+        },
+        "REMOTE_SERVER_TRANSPORT_MODULE": {
+            "description": "Tranport module name used for deployed web app (applicable when web formation size is >0). `streamable_http_server` or `sse_server`.",
+            "value": "streamable_http_server"
+        },
+        "USE_TEMP_DIR": {
+           "description": "Run Python code in a temporary virtualenv (not a sandbox, but does isolate packages).",
+            "value": "false"
+        }
+    },
+    "formation": [
+        {
+            "quantity": 0,
+            "size": "standard-1x",
+            "type": "web"
+        }
+    ],
+    "addons": [],
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ]
+}

@@ -1,0 +1,8 @@
+mcp[client,server]==1.19.0
+fastapi==0.120.0
+uvicorn==0.38.0
+python-dotenv==1.2.1
+mando==0.8.2
+# --- dev / CI only -------------------------------------------------
+pytest>=8.0
+pytest-asyncio>=0.23
