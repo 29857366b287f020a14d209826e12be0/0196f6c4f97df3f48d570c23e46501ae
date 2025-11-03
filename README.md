@@ -214,3 +214,4 @@ Soon, you'll also be able to connect up your MCP repo to Heroku's MCP Gateway, w
 The Heroku MCP Gateway implements a rendezvous protocol so that you can easily talk to your MCP server one-off dynos (code execution isolation!) with seamless back-and-forth communication.
 
 After [deploying and registering](https://devcenter.heroku.com/articles/heroku-inference-working-with-mcp) your MCP app on heroku, requests made to Heroku's [`v1/mcp/servers`](https://devcenter.heroku.com/articles/heroku-inference-api-v1-mcp-servers) will show you your registered MCP tools, and requests made to [`v1/agents/heroku`](https://devcenter.heroku.com/articles/heroku-inference-api-v1-agents-heroku) will be able to execute your MCP tools automatically via one-off dynos.
+asdf
