@@ -1,1 +1,1 @@
-mcp-python-namespace-main--example: python -m src.stdio_server
+mcp-python-namespace-main: python -m src.stdio_server

@@ -26,7 +26,7 @@ def set_up_tools_server():
         # tools["test"] = code_exec_python
         # tools["code_exec_python"] = code_exec_python
         # tools["html_to_markdown"] = html_to_markdown
-        tools["tool"] = code_exec_python
+        tools["example--tool"] = code_exec_python
         # test
     mcp_server = FastMCP("tools")
     for name, tool in tools.items():
