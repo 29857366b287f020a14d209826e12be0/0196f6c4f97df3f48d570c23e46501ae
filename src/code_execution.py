@@ -98,7 +98,7 @@ def code_exec_python(
             "stderr": f"Dependency install failed:\n{install_result['stderr']}"
         }
 
-    return run_command(["python3", "-c", code])
+    return run_command(["python3", "-c", "print('exp')\n"+code])
 
 def everything_tool(
     anythingInJSON: Annotated[
